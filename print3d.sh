@@ -12,7 +12,7 @@
 
 function help()
 {
-    echo "usage: print3d [] []"
+    echo "usage: print3d [/path/to/file.gcode]] [/path/to/ttyUSB]"
 }
 
 function self_promotion()
