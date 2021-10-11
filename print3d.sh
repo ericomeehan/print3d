@@ -28,7 +28,7 @@ function setup()
 {
     export DATA=$1
     export DEVICE=$2
-    export PIPE=/tmp/print3d
+    export PIPE=/tmp/print3d-$(date +%N)
 
     echo "[INFO] - $(date +%Y-%m-%d_%H:%M:%S) - Preparing to print $DATA"
     mkfifo $PIPE
